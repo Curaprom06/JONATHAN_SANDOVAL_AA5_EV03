@@ -1,0 +1,8 @@
+Ignorar archivos del entorno y dependencias sensibles
+
+/vendor/
+/node_modules/
+.env
+.DS_Store
+*.log
+/app/Config/Database.php # Opcional si contiene datos sensibles
